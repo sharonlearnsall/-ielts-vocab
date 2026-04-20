@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>雅思写作高频词汇与句式</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #fff; color: #1a1a1a; padding: 1.5rem; }
+    .root { max-width: 760px; margin: 0 auto; }
+    h1 { font-size: 20px; font-weight: 500; margin-bottom: 1.25rem; color: #1a1a1a; }
+    .tab-bar { display: flex; gap: 8px; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .tab { padding: 7px 18px; border-radius: 20px; border: 0.5px solid #ccc; background: transparent; font-size: 13px; color: #555; cursor: pointer; transition: all 0.15s; }
+    .tab.active { background: #dbeafe; color: #1d4ed8; border-color: transparent; font-weight: 500; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .category-title { font-size: 15px; font-weight: 500; color: #1a1a1a; margin: 1.5rem 0 0.75rem; padding-bottom: 6px; border-bottom: 0.5px solid #e5e5e5; }
+    .category-title:first-child { margin-top: 0; }
+    .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 0.25rem; }
+    .chip { padding: 4px 12px; border-radius: 20px; font-size: 13px; border: 0.5px solid #e5e5e5; background: #f5f5f5; color: #1a1a1a; }
+    .chip.en { background: #dbeafe; color: #1e40af; border-color: #bfdbfe; }
+    .phrase-card { background: #fff; border: 0.5px solid #e5e5e5; border-radius: 8px; padding: 12px 14px; margin-bottom: 8px; }
+    .phrase-en { font-size: 14px; color: #1a1a1a; line-height: 1.6; font-weight: 500; }
+    .phrase-zh { font-size: 12px; color: #666; margin-top: 4px; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    @media (max-width: 500px) { .two-col { grid-template-columns: 1fr; } }
+    .badge { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 10px; margin-bottom: 6px; }
+    .badge.t1 { background: #dcfce7; color: #166534; }
+    .badge.t2 { background: #fef3c7; color: #92400e; }
+    .badge.both { background: #ede9fe; color: #4c1d95; }
+  </style>
+</head>
+<body>
+<div class="root">
+  <h1>雅思写作高频词汇与句式</h1>
+  <div class="tab-bar">
+    <button class="tab active" onclick="show('t1-chart', this)">Task 1 · 图表</button>
+    <button class="tab" onclick="show('t1-map', this)">Task 1 · 地图/流程</button>
+    <button class="tab" onclick="show('t2-arg', this)">Task 2 · 论证</button>
+    <button class="tab" onclick="show('t2-struct', this)">Task 2 · 结构句式</button>
+    <button class="tab" onclick="show('shared', this)">通用词汇</button>
+  </div>
+
+  <!-- T1 Chart -->
+  <div id="t1-chart" class="section active">
+    <span class="badge t1">Task 1 · 图表类</span>
+    <div class="category-title">描述趋势动词</div>
+    <div class="chips">
+      <span class="chip en">rise / increase / grow</span>
+      <span class="chip en">fall / decline / drop / decrease</span>
+      <span class="chip en">fluctuate</span>
+      <span class="chip en">remain stable / plateau</span>
+      <span class="chip en">peak at / reach a high of</span>
+      <span class="chip en">bottom out at / hit a low of</span>
+      <span class="chip en">surge / soar / rocket</span>
+      <span class="chip en">plummet / plunge / slump</span>
+    </div>
+    <div class="category-title">描述程度副词</div>
+    <div class="chips">
+      <span class="chip en">dramatically / sharply / steeply</span>
+      <span class="chip en">significantly / considerably / markedly</span>
+      <span class="chip en">gradually / steadily / moderately</span>
+      <span class="chip en">slightly / marginally / barely</span>
+      <span class="chip en">roughly / approximately</span>
+    </div>
+    <div class="category-title">比较与对比词汇</div>
+    <div class="chips">
+      <span class="chip en">by contrast / in comparison</span>
+      <span class="chip en">whereas / while</span>
+      <span class="chip en">account for / represent / make up</span>
+      <span class="chip en">outnumber / exceed / surpass</span>
+      <span class="chip en">the figure for X was double / triple that of Y</span>
+    </div>
+    <div class="category-title">核心句式</div>
+    <div class="two-col">
+      <div class="phrase-card">
+        <div class="phrase-en">The figure for X rose sharply from A to B between [year] and [year].</div>
+        <div class="phrase-zh">X 的数值从…急剧上升至…</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">X accounted for the largest proportion, at approximately N%.</div>
+        <div class="phrase-zh">X 占比最大，约为…%</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">After peaking at N in [year], the number gradually declined.</div>
+        <div class="phrase-zh">在…年达到峰值后，数量逐渐下降</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">Overall, it is clear that X saw the most notable change over the period.</div>
+        <div class="phrase-zh">总体而言，X 变化最为显著</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">The proportion of X fluctuated throughout the period, ending at roughly N%.</div>
+        <div class="phrase-zh">X 的占比全程波动，最终约为…%</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">Despite an initial increase, X subsequently fell back to its original level.</div>
+        <div class="phrase-zh">尽管初期有所上升，X 随后回落至原始水平</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- T1 Map/Process -->
+  <div id="t1-map" class="section">
+    <span class="badge t1">Task 1 · 地图 / 流程图类</span>
+    <div class="category-title">地图题 · 位置方位词</div>
+    <div class="chips">
+      <span class="chip en">to the north/south/east/west of</span>
+      <span class="chip en">in the centre / on the outskirts</span>
+      <span class="chip en">adjacent to / next to / opposite</span>
+      <span class="chip en">along the river / beside the road</span>
+      <span class="chip en">between X and Y</span>
+    </div>
+    <div class="category-title">地图题 · 变化动词</div>
+    <div class="chips">
+      <span class="chip en">be replaced by / give way to</span>
+      <span class="chip en">be converted into / be transformed into</span>
+      <span class="chip en">be demolished / be removed</span>
+      <span class="chip en">be constructed / be built / be added</span>
+      <span class="chip en">be extended / be expanded / be widened</span>
+      <span class="chip en">remain unchanged / retain its original position</span>
+    </div>
+    <div class="category-title">流程图 · 顺序连接词</div>
+    <div class="chips">
+      <span class="chip en">first / initially / to begin with</span>
+      <span class="chip en">then / next / after that / subsequently</span>
+      <span class="chip en">at this stage / at the following stage</span>
+      <span class="chip en">once X has been done, Y is then...</span>
+      <span class="chip en">finally / ultimately / at the end of the process</span>
+    </div>
+    <div class="category-title">核心句式</div>
+    <div class="two-col">
+      <div class="phrase-card">
+        <div class="phrase-en">The most significant change is that X has been replaced by Y.</div>
+        <div class="phrase-zh">最显著的变化是 X 被 Y 所取代</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">What is particularly noticeable is that the area to the north has been substantially developed.</div>
+        <div class="phrase-zh">尤为引人注目的是北部区域得到了大规模开发</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">The raw material is first collected and then transported to the factory, where it undergoes processing.</div>
+        <div class="phrase-zh">原材料首先被采集，然后运往工厂进行加工</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">Overall, the maps show a dramatic transformation of the area from largely rural to predominantly urban.</div>
+        <div class="phrase-zh">总体而言，地图呈现了该地区从农村向城市的剧变</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- T2 Argument -->
+  <div id="t2-arg" class="section">
+    <span class="badge t2">Task 2 · 论点论证</span>
+    <div class="category-title">引入观点</div>
+    <div class="chips">
+      <span class="chip en">It is argued that...</span>
+      <span class="chip en">Proponents of X contend that...</span>
+      <span class="chip en">A growing body of evidence suggests that...</span>
+      <span class="chip en">One of the main reasons for this is that...</span>
+    </div>
+    <div class="category-title">让步与转折</div>
+    <div class="chips">
+      <span class="chip en">While / Although / Even though</span>
+      <span class="chip en">Admittedly, ... however, ...</span>
+      <span class="chip en">Despite this, / Nevertheless,</span>
+      <span class="chip en">On the other hand,</span>
+      <span class="chip en">The counter-argument is that...</span>
+    </div>
+    <div class="category-title">举例说明</div>
+    <div class="chips">
+      <span class="chip en">For example, / For instance,</span>
+      <span class="chip en">To illustrate this point,</span>
+      <span class="chip en">A case in point is...</span>
+      <span class="chip en">Take X as an example.</span>
+      <span class="chip en">This is evident in / This can be seen in...</span>
+    </div>
+    <div class="category-title">因果关系</div>
+    <div class="chips">
+      <span class="chip en">This leads to / This results in / This causes</span>
+      <span class="chip en">As a result, / Consequently, / Therefore,</span>
+      <span class="chip en">due to / owing to / as a consequence of</span>
+      <span class="chip en">contribute to / give rise to / bring about</span>
+    </div>
+    <div class="category-title">论证核心句式</div>
+    <div class="two-col">
+      <div class="phrase-card">
+        <div class="phrase-en">The primary reason for this is that X directly leads to Y, which in turn causes Z.</div>
+        <div class="phrase-zh">主要原因在于 X 直接导致 Y，进而引发 Z</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">Admittedly, there are merits to this view; however, the drawbacks far outweigh the benefits.</div>
+        <div class="phrase-zh">诚然此观点有其合理之处，但弊端远大于益处</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">Unless governments take decisive action, the problem is likely to worsen significantly.</div>
+        <div class="phrase-zh">除非政府采取果断行动，问题将会显著恶化</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">While this may be true in certain contexts, it does not apply universally.</div>
+        <div class="phrase-zh">尽管在特定情境下可能成立，但并非普遍适用</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- T2 Structure -->
+  <div id="t2-struct" class="section">
+    <span class="badge t2">Task 2 · 结构句式</span>
+    <div class="category-title">开头段 · 引入改写题目</div>
+    <div class="two-col">
+      <div class="phrase-card">
+        <div class="phrase-en">It is widely believed that... / In recent years, ... has become a growing concern.</div>
+        <div class="phrase-zh">引入话题背景</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">This essay will argue that... / This essay will examine both sides of the argument before reaching a conclusion.</div>
+        <div class="phrase-zh">亮明立场 / 说明文章结构</div>
+      </div>
+    </div>
+    <div class="category-title">主体段 · 段首主题句</div>
+    <div class="two-col">
+      <div class="phrase-card">
+        <div class="phrase-en">One significant advantage of X is that...</div>
+        <div class="phrase-zh">优势段开头</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">However, there are several compelling arguments against this view.</div>
+        <div class="phrase-zh">反驳段开头</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">From a social / economic / environmental perspective, ...</div>
+        <div class="phrase-zh">分角度论证</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">The most effective solution to this problem would be to...</div>
+        <div class="phrase-zh">解决方案段开头</div>
+      </div>
+    </div>
+    <div class="category-title">结尾段</div>
+    <div class="two-col">
+      <div class="phrase-card">
+        <div class="phrase-en">In conclusion, while X has some merit, I firmly believe that Y is the more persuasive argument.</div>
+        <div class="phrase-zh">表明立场式结尾</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">To conclude, both individuals and governments must work together to address this issue effectively.</div>
+        <div class="phrase-zh">呼吁行动式结尾</div>
+      </div>
+    </div>
+    <div class="category-title">高分连接词（按功能分类）</div>
+    <div class="chips">
+      <span class="chip en">Furthermore, / Moreover, / In addition,</span>
+      <span class="chip en">However, / Nevertheless, / That said,</span>
+      <span class="chip en">Therefore, / Thus, / Hence,</span>
+      <span class="chip en">Specifically, / In particular,</span>
+      <span class="chip en">In contrast, / On the contrary,</span>
+      <span class="chip en">In terms of X, / With regard to X,</span>
+      <span class="chip en">As a result, / Consequently,</span>
+    </div>
+  </div>
+
+  <!-- Shared -->
+  <div id="shared" class="section">
+    <span class="badge both">Task 1 + 2 通用</span>
+    <div class="category-title">开篇总览 / 概述句</div>
+    <div class="two-col">
+      <div class="phrase-card">
+        <div class="phrase-en">Overall, it is evident that...</div>
+        <div class="phrase-zh">Task 1 总览句常用开头</div>
+      </div>
+      <div class="phrase-card">
+        <div class="phrase-en">The most striking feature of the data is that...</div>
+        <div class="phrase-zh">点出最显著特征</div>
+      </div>
+    </div>
+    <div class="category-title">高频学术词汇</div>
+    <div class="chips">
+      <span class="chip en">significant / substantial / considerable</span>
+      <span class="chip en">evident / apparent / notable</span>
+      <span class="chip en">proportion / percentage / share</span>
+      <span class="chip en">trend / pattern / tendency</span>
+      <span class="chip en">factor / aspect / dimension</span>
+      <span class="chip en">indicate / suggest / demonstrate / reveal</span>
+      <span class="chip en">overall / in general / broadly speaking</span>
+      <span class="chip en">whereas / while / although / despite</span>
+    </div>
+    <div class="category-title">Task 2 高频话题词（社会类）</div>
+    <div class="chips">
+      <span class="chip en">urbanisation / globalisation / digitalisation</span>
+      <span class="chip en">socioeconomic inequality / social cohesion</span>
+      <span class="chip en">carbon emissions / renewable energy</span>
+      <span class="chip en">work-life balance / sedentary lifestyle</span>
+      <span class="chip en">access to education / quality of life</span>
+      <span class="chip en">government intervention / individual responsibility</span>
+      <span class="chip en">long-term consequences / short-term gains</span>
+    </div>
+    <div class="category-title">替换 "important / big / a lot"（高分词汇）</div>
+    <div class="chips">
+      <span class="chip en">crucial / pivotal / paramount (代替 important)</span>
+      <span class="chip en">substantial / considerable (代替 big/large)</span>
+      <span class="chip en">a great deal of / a wide range of (代替 a lot of)</span>
+      <span class="chip en">detrimental / adverse (代替 bad)</span>
+      <span class="chip en">beneficial / advantageous (代替 good)</span>
+    </div>
+  </div>
+</div>
+
+<script>
+function show(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>
